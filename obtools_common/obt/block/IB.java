@@ -3,23 +3,23 @@ package obt.block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 
-public class ItemMod extends ItemBlock {
-    
-    public ItemMod (int par1) 
-    {
-    super(par1);
-    setHasSubtypes(true);
+public class IB extends ItemBlock
+{
+    public IB(int par1) {
+        super(par1);
+        setHasSubtypes(true);
     }
+    
     @Override
     public String getUnlocalizedName(ItemStack itemStack){
         String name = "";
         
         switch(itemStack.getItemDamage()){
             case 0:
-                name = "copper";
+                name = "Magic";
                 break;
             case 1:
-                name = "silver";
+                name = "Dull";
                 break;
             default:
                 name = "broken";

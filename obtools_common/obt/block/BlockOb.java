@@ -12,10 +12,9 @@ public class BlockOb extends Block{
         this.setCreativeTab(CreativeTabs.tabBlock);
     }
     
-    public void registerIcons(IconRegister par1IconRegister){
-        this.blockIcon = 
-                par1IconRegister.registerIcon(Reference.MOD_ID
-                        + ":" + this.getUnlocalizedName().substring(5));
+    public void registerIcons(IconRegister par1IconRegister)
+    {
+        this.blockIcon = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + (this.getUnlocalizedName().substring(5)));
     }
 
 }

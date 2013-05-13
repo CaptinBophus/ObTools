@@ -17,7 +17,7 @@ public class ObsidianTools
     @PreInit
     public void preInit(FMLPreInitializationEvent event)
     {
-        //ModBlocks.init();
+        ModBlocks.init();
     }
     
     @Init
