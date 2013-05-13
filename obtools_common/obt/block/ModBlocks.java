@@ -25,8 +25,8 @@ public class ModBlocks
         testBlock = (new BlockTest(BlockIds.TESTBLOCK, Material.ground))
         .setUnlocalizedName("blockTest");
         //Register Blocks
-        GameRegistry.registerBlock(blockTest, ItemMod.class,
-                Reference.MOD_ID+(blockTest).getUnlocalizedName().substring(5)));
+        GameRegistry.registerBlock(testBlock, ItemMod.class,
+                Reference.MOD_ID+(testBlock).getUnlocalizedName().substring(5));
         
     }
     
