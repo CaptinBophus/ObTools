@@ -2,18 +2,13 @@ package obt.block;
 
 import java.awt.List;
 
-import obt.lib.Reference;
-
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.Icon;
+import obt.lib.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-
-
-
 
 
 public class BlockTest extends BlockOb 
@@ -60,7 +55,7 @@ public class BlockTest extends BlockOb
     @SideOnly(Side.CLIENT)
     public void getSubBlocks(int par1, CreativeTabs part2CreativeTabs, List par3List){
         for(int i = 0; i < 2; i++){
-            par3List.add(new ItemStack(par1, 1, i));
+            //par3List.add(new ItemStack(par1, 1, i));
         }
     }
 }
