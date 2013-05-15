@@ -21,6 +21,9 @@ public class IB extends ItemBlock
             case 1:
                 name = "Dull";
                 break;
+            case 2:
+                name = "Infin";
+                break;
             default:
                 name = "broken";
                 break;

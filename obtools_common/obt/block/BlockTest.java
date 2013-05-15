@@ -14,9 +14,9 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class BlockTest extends BlockOb 
 {
     @SideOnly(Side.CLIENT)
-    private String[] oreNames = new String[]{"copper","silver"};
+    private String[] oreNames = new String[]{"copper","silver","infin"};
     @SideOnly(Side.CLIENT)
-    private static String[] iconNames = new String[]{"oreCopper", "oreSilver"};
+    private static String[] iconNames = new String[]{"testBlock0", "testBlock1", "testBlock2"};
     public BlockTest(int id, Material par2Material)
     {
           super(id, par2Material);

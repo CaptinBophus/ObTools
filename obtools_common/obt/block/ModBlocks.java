@@ -19,8 +19,9 @@ public class ModBlocks
             GameRegistry.registerBlock(testBlock, IB.class,
                     Reference.MOD_ID+(testBlock.getUnlocalizedName().substring(5)));
        
-            LanguageRegistry.addName(new ItemStack(testBlock, 1, Reference.MAGIC_META), "Magic Block");
-            LanguageRegistry.addName(new ItemStack(testBlock, 1, Reference.DULL_META), "Dull Block");
+            LanguageRegistry.addName(new ItemStack(testBlock, 1, Reference.MAGIC_META), "Magic Block(You shouldn't have this)");
+            LanguageRegistry.addName(new ItemStack(testBlock, 1, Reference.DULL_META), "Dull Block(You shouldn't have this)");
+            LanguageRegistry.addName(new ItemStack(testBlock, 1, Reference.INFIN_META), "Infinity Block(You shouldn't have this)");
     }
 }
     
